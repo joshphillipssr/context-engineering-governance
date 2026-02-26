@@ -1,0 +1,31 @@
+name: Validate Governance Boundary Gates
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Governance Boundary Gates
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate governance boundary constraints
+        run: |
+          python3 00-os/scripts/validate-boundary-governance.py
+
+      - name: Validate governance contract specification
+        run: |
+          python3 00-os/scripts/validate-governance-contract-spec.py

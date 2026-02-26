@@ -22,6 +22,13 @@ This bootstrap includes canonical governance artifacts migrated from `Josh-Phill
 
 See `MIGRATION_PROVENANCE.md` for source commit references.
 
+## Boundary Gates
+
+Boundary drift is enforced by CI in:
+
+- `BOUNDARY_GATES.md`
+- `.github/workflows/validate-boundary-governance.yml`
+
 ## Change Management
 
 - Issue-first workflow
