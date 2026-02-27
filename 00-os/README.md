@@ -5,6 +5,7 @@
 This directory contains:
 - **role-registry.yml**: Canonical source of truth for all role metadata
 - **governed-repos.yml**: Canonical source of truth for repository governance state
+- **intake-routing.md**: Canonical split issue intake and routing policy
 - **scripts/generate-role-wiring.py**: Generator script that produces role wiring code from the registry
 
 ## Purpose
