@@ -30,6 +30,10 @@ jobs:
         run: |
           python3 00-os/scripts/validate-governance-contract-spec.py
 
+      - name: Install ownership validator dependency
+        run: |
+          python3 -m pip install --disable-pip-version-check pyyaml
+
       - name: Validate governance ownership artifacts
         run: |
           python3 00-os/scripts/validate-governance-ownership.py
