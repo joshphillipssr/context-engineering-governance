@@ -1,10 +1,17 @@
-# Context Engineering Governance
+# Context Engineering Governance Reference Scaffold
 
-Authoritative governance policy source for Context Engineering.
+Public reference scaffold for Context Engineering governance.
+
+## Authority Boundary
+
+This repository is a public, non-authoritative reference scaffold.
+The authoritative governance source for the Josh-Phillips-LLC org lives in:
+
+- `Josh-Phillips-LLC/context-engineering-governance`
 
 ## Purpose
 
-This repository contains policy, process, and architecture-governance artifacts that define how downstream implementation and role repositories operate.
+This repository preserves a public reference copy of policy, process, and architecture-governance artifacts that describe how downstream implementation and role repositories operate.
 
 Normative split direction:
 
@@ -12,7 +19,7 @@ Normative split direction:
 
 ## Initial Bootstrap Scope
 
-This bootstrap includes canonical governance artifacts migrated from `Josh-Phillips-LLC/Context-Engineering` to establish a reviewable governance baseline:
+This scaffold preserves governance artifacts migrated from `Josh-Phillips-LLC/Context-Engineering` to establish a reviewable public reference baseline:
 
 - `governance.md`
 - `context-flow.md`
@@ -36,4 +43,4 @@ Boundary drift is enforced by CI in:
 - PR review required
 - Executive Sponsor approval required for protected-path governance changes
 
-See `governance.md` and `00-os/workflow.md` for the authoritative operating model.
+See `governance.md` and `00-os/workflow.md` for the public reference copy of the operating model. The authoritative operating model lives in the LLC governance repo.

@@ -10,6 +10,6 @@ Initial governance bootstrap performed from:
 
 ## Bootstrap Notes
 
-- Canonical governance policy artifacts were copied with minimal transformation.
+- Governance policy artifacts were copied with minimal transformation.
 - File paths were preserved where practical to keep diffs reviewable.
-- This repository is now the governance-authoritative source per ADR 0002.
+- This repository now serves as a public reference scaffold. The authoritative governance source for the LLC org lives in `Josh-Phillips-LLC/context-engineering-governance`.

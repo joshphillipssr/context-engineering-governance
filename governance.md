@@ -1,6 +1,7 @@
-# Governance (Authoritative)
+# Governance (Public Reference Scaffold)
 
-This document is the authoritative, enforceable operating model for Context-Engineering.
+This document is a public reference copy of the Context Engineering operating model.
+The authoritative governance source for the Josh-Phillips-LLC org lives in `Josh-Phillips-LLC/context-engineering-governance`.
 
 For exploratory ideas, options, and future-looking notes, see `canvas.md`.
 
